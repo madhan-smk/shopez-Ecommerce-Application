@@ -1,0 +1,131 @@
+
+
+.cartitems{
+    margin: 80px 170px;
+}
+
+.cartitems hr{
+    height: 3px;
+    background-color: rgba(44, 0, 156, 0.322);
+    border: 0;
+    border-radius: 15px;
+}
+
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.carticon-product-icon{
+    height: 50px;
+}
+
+
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+
+}
+
+
+
+.cartitems-quantity{
+    width: 64px;
+    height: 50px;
+    border: 2px solid rgb(150, 149, 149);
+    background-color: rgba(109, 112, 112, 0.281);
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 0px rgb(34, 34, 34);
+}
+
+
+.cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+
+.cartitems-total{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 200px;
+    gap: 40px;
+}
+
+.cartitems-total-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.cartitems-total button{
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 61, 184, 0.77);
+    color: azure;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cartitems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.cartitems-promocode p{
+    color: rgb(0, 0, 100);
+    
+}
+
+.cartitems-promobox{
+    width: 504px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    background: #02a0d037;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartitems-promobox input{
+    border: none;
+    outline: none;
+    text-align: start;
+    background: transparent;
+    font-size: 16px;
+    width: 330px;
+    height: 50px;
+}
+
+.cartitems-promobox button{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 81, 0.721);
+    color: azure;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 15px;
+}

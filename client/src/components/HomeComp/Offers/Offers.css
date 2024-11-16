@@ -1,0 +1,106 @@
+.offers {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 10%;
+    gap: 5%;
+    overflow: hidden;
+    border-radius: 15px; /* Rounded corners for a softer look */
+}
+
+.offers-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    animation: slideIn 1s ease-out;
+}
+
+.offers-right h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #00d4ff;
+    text-transform: uppercase;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Subtle text shadow for readability */
+}
+
+.offers-right p {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #b0d6ff;
+}
+
+.offers-right button {
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background: #00d4ff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3); /* Subtle shadow for depth */
+}
+
+.offers-right button:hover {
+    background: #ffffff;
+    color: #00d4ff;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px 10px #00d4ff;
+}
+
+.offers-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1.2s ease-in;
+}
+
+.offers-left img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 10px rgba(0, 212, 255, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.offers-left img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 60px 15px rgba(0, 212, 255, 0.7);
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,169 @@
+.home-category {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#banner {
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+    height: 80%;
+}
+
+.fashioncategory-indexsort {
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 0, 59);
+    height: 60px;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-shadow: 0px 0px 50px rgb(255, 255, 255);
+}
+
+.fashioncategory-sort {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 150px;
+    color: azure;
+    gap: 10px;
+    background-color: rgb(13, 0, 194);
+}
+
+.fashioncategory-sort:hover {
+    background-color: rgba(26, 0, 112, 0.521);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px white;
+}
+
+.fashioncategory-indexsort p span {
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 100px;
+    color: azure;
+}
+
+.fashioncategory-products {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    justify-items: center;
+    background-color: rgba(145, 126, 209, 0.173);
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 20px;
+}
+
+.fashioncategory-products .item {
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    background-color: #C8A2C8; /* Lilac color */
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fashioncategory-products img{
+    width: 250px;
+    height:250px;
+    border-radius: 15px;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.item p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.item-prices {
+    display: flex;
+    justify-content: center;
+}
+
+.item-price-new {
+    color: rgb(31, 162, 167);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-price-old {
+    color: rgb(0, 59, 82);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.fashioncategory-loadmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background-color: rgba(18, 88, 167, 0.636);
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: azure;
+    text-shadow: 0px 0px 10px black;
+}
+
+
+.each{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+/* Add these styles for the dropdown */
+.dropdown {
+    position: absolute;
+    background-color: rgb(8, 101, 147);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px;
+  }
+  
+  .dropdown div {
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown div:hover {
+    background-color: #270788;
+  }
+  
+  /* Additional styles for other elements */
+  .fashioncategory-sort {
+    cursor: pointer;
+    position: relative;
+  }
+  

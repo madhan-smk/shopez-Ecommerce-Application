@@ -1,0 +1,80 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(57, 0, 110),rgba(57, 52, 189, 0.634),rgb(69, 157, 194)) ;
+    display: flex;
+}
+.hero-left{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 180px;
+    line-height: 1.1;
+    margin-top: 60px;
+}
+
+.hero-left h2{
+    color: azure;
+    font-size: 26px;
+    font-weight: 600;
+    text-shadow: 6px 6px 10px black;
+}
+.hero-left p{
+    margin-top: 10px;
+    color: azure;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 6px 6px 10px black;
+
+}
+
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.hero-hand-icon img{
+    width: 65px;
+}
+.hero-latest-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height:70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background-color: rgb(48, 0, 93);
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid azure;
+}
+
+.hero-latest-button:hover{
+    box-shadow: 0px 0px 50px 15px rgb(61, 61, 210);
+    transition: 0.3s;
+}
+
+.hero-latest-button:active{
+    box-shadow: 0px 0px 50px 15px rgb(59, 59, 141);
+    transition: 0.01s;
+}
+.hero-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right img{
+    border: 3px solid white;
+    margin: 10px;
+    border-radius: 75px;
+    box-shadow: 3px 3px 100px 10px white;
+}

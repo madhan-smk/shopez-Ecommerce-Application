@@ -1,0 +1,68 @@
+.newsletter{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0px 140px;
+    flex-direction: column;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, rgb(57, 0, 110),rgba(57, 52, 189, 0.634),rgb(69, 157, 194)) ;
+    color: rgba(240, 255, 255, 0.942);
+    gap: 30px;
+    text-shadow: 6px 6px 10px black;
+    margin-bottom: 1px;
+}
+
+.newsletter h1{
+    margin-top: 68px;
+    font-size: 55px;
+    font-weight: 500;
+}
+.newsletter p{
+    font-size: 30px;
+}
+
+.newsletter div{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 730px ;
+    height: 70px;
+    border-radius: 80px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 6px 6px 100px 10px;
+    background-color: azure;
+    box-shadow: 1px 1px 10px black;
+}
+
+.newsletter input{
+    height: 40px;
+    width: 500px;
+    margin-left: 30px;
+    outline: none;
+    border: 2px solid white;
+    color: rgba(3, 0, 36, 0.764);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.newsletter div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background-color: rgba(7, 0, 86, 0.726);
+    color: azure;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid azure;
+}
+
+.newsletter div button:hover{
+    background-color: rgba(11, 0, 83, 0.808);
+    border: 1px solid azure;
+}
